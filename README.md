@@ -7,8 +7,8 @@ A simple, polished Flutter app that displays a random inspirational quote on lau
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/loading_state.png" width="280" />
   <img src="screenshots/quote_state.png" width="280" />
+  <img src="screenshots/loading_state.png" width="280" />
 </p>
 
 ---
