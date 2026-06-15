@@ -4,6 +4,15 @@ A simple, polished Flutter app that displays a random inspirational quote on lau
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/loading_state.png" width="280" />
+  <img src="screenshots/quote_state.png" width="280" />
+</p>
+
+---
+
 ## ✨ Features
 
 - Displays a random quote with author every time the app opens
@@ -64,6 +73,7 @@ GET https://dummyjson.com/quotes/random
 ```
 
 Response:
+
 ```json
 {
   "id": 1,
@@ -78,27 +88,28 @@ No API key required.
 
 ## 📦 Packages Used
 
-| Package | Purpose |
-|---|---|
-| [`dio`](https://pub.dev/packages/dio) | HTTP client for REST API calls |
-| [`get_it`](https://pub.dev/packages/get_it) | Dependency injection / service locator |
-| [`provider`](https://pub.dev/packages/provider) | State management |
-| [`dartz`](https://pub.dev/packages/dartz) | Functional error handling via `Either<Failure, Quote>` |
-| [`equatable`](https://pub.dev/packages/equatable) | Value equality for entities & models |
+| Package                                           | Purpose                                                |
+| ------------------------------------------------- | ------------------------------------------------------ |
+| [`dio`](https://pub.dev/packages/dio)             | HTTP client for REST API calls                         |
+| [`get_it`](https://pub.dev/packages/get_it)       | Dependency injection / service locator                 |
+| [`provider`](https://pub.dev/packages/provider)   | State management                                       |
+| [`dartz`](https://pub.dev/packages/dartz)         | Functional error handling via `Either<Failure, Quote>` |
+| [`equatable`](https://pub.dev/packages/equatable) | Value equality for entities & models                   |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) installed
 - An emulator or physical device
 
 ### Run the app
 
 ```bash
-git clone https://github.com/abdelrahmansaed1/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/abdelrahmansaed1/<random-quote-generator-flutter>.git
+cd <random-quote-generator-flutter>
 flutter pub get
 flutter run
 ```
@@ -107,11 +118,11 @@ flutter run
 
 ## 📱 Screens
 
-| State | Description |
-|---|---|
-| Loading | Shows a gold circular progress indicator |
-| Loaded | Displays quote text, divider, author name, and quote counter |
-| Error | Displays a friendly error message (e.g. connection issues) |
+| State   | Description                                                  |
+| ------- | ------------------------------------------------------------ |
+| Loading | Shows a gold circular progress indicator                     |
+| Loaded  | Displays quote text, divider, author name, and quote counter |
+| Error   | Displays a friendly error message (e.g. connection issues)   |
 
 ---
 
